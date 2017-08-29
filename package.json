@@ -1,0 +1,29 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "a discord bot in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NebulaGitHub/discordjsbot.git"
+  },
+  "author": "NebulaGithub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NebulaGitHub/discordjsbot/issues"
+  },
+  "homepage": "https://github.com/NebulaGitHub/discordjsbot#readme",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "fs": "0.0.1-security",
+    "get-youtube-id": "^1.0.0",
+    "opusscript": "0.0.3",
+    "request": "^2.81.0",
+    "youtube-info": "^1.1.1",
+    "ytdl-core": "^0.16.0"
+  }
+}
