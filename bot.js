@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client(); //to avoid confusion when using the discord.js docs change this from bot to client
-const token = 'your bot token here';
 const prefix = 'XD' //prefix change to desired prefix
 const fs = require('fs');
 
@@ -9,7 +8,7 @@ bot.on('ready', () => {
 	console.log('Ready!');
 });
 
-bot.login('MjY0NTc4ODQ1NTgyMTYzOTcw.DHqvEQ.fzqe6k9atV86J9IEYM3HKEbQ0X0');
+bot.login('your token here');
 
 
 bot.on('message', message => {
